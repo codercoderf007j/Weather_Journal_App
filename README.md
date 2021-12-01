@@ -13,3 +13,6 @@ This project was about working with Web APIs and asynchronous code, creating a w
 3.  Acquired API credentials from OpenWeatherMap website.
 4.  Created async functions to fetch weather data and store it on my local server.
 5.   Set up a function that updated UI dynamically.
+
+## Result
+![About Page](https://github.com/codercoderf007j/Weather_Journal_App/blob/9b9117b5644842e67cdd4534baa826abebce68a0/weather_journal_app.PNG)
