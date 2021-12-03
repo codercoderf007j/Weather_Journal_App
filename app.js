@@ -6,12 +6,12 @@ const temp = document.getElementById('temp')
 const user_feeling = document.getElementById('content')
 // Basic Api url
 const baseURL = 'https://api.openweathermap.org/data/2.5/weather?zip=';
-//aplikey error
-const apiKey = ',us&appid=661daa7377189bfe425b6af1f07ac279';
+//aplikey error fixed here
+const apiKey = ',us&appid=661daa7377189bfe425b6af1f07ac279&units=imperial';
 
 //Get the date from javascript
 let d = new Date();
-let newDate = d.getMonth() + '.' + d.getDate() + '.' + d.getFullYear();
+let newDate = d.getMonth()+1) + '/' + d.getDate() + '.' + d.getFullYear();
 
 // we fetch data by submit button and get data and store it
 document.getElementById('submit_btn').addEventListener('click', (e) => {
