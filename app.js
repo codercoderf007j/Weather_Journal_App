@@ -25,9 +25,11 @@ document.getElementById('submit_btn').addEventListener('click', (e) => {
     .then(user => postData('/add', { date: newDate, temp: user.main.temp, content }))
     .then(newData => updateDomData())
 
+  
   // reset form
   form.reset();
 });
+
 
 /* Function to GET API*/
 const getWeatherData = async (baseURL, newZip, apiKey) => {
